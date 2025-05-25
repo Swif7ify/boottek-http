@@ -1,25 +1,35 @@
 /*======================
-    404 page
+    404/503 page
 =======================*/
 
-.page_404 {
-	padding: 40px 0;
-	background: #fff;
-	font-family: "Arvo", serif;
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
-.page_404 img {
-	width: 100%;
+.page_404 {
+	background: #fff;
+	font-family: "Lato", serif;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .four_zero_four_bg {
 	background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
 	height: 400px;
 	background-position: center;
+	background-repeat: no-repeat;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .four_zero_four_bg h1 {
 	font-size: 80px;
+	margin: 0;
 }
 
 .four_zero_four_bg h3 {
@@ -28,11 +38,30 @@
 
 .link_404 {
 	color: #fff !important;
-	padding: 10px 20px;
+	padding: 10px 30px;
 	background: #39ac31;
-	margin: 20px 0;
+	margin: 30px 0 0 0;
 	display: inline-block;
+	border-radius: 6px;
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: none;
+	box-shadow: 0 2px 8px rgba(57, 172, 49, 0.2);
+	transition: background 0.2s, box-shadow 0.2s;
 }
+
+.link_404:hover,
+.link_404:focus {
+	background: #2e8b25;
+	box-shadow: 0 4px 16px rgba(57, 172, 49, 0.3);
+}
+
 .contant_box_404 {
 	margin-top: -50px;
+	text-align: center;
+}
+
+.h2 {
+	font-size: 2em;
+	margin-bottom: 16px;
 }
