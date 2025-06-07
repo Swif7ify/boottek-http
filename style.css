@@ -27,6 +27,7 @@
 	justify-content: center;
 	position: relative;
 	width: 920px;
+	z-index: -1;
 }
 
 .four_zero_four_bg h1 {
@@ -68,4 +69,5 @@
 .h2 {
 	font-size: 2em;
 	margin-bottom: 16px;
+	z-index: 1000;
 }
